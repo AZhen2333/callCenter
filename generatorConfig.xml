@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <context id="MysqlContext" targetRuntime="MyBatis3Simple" defaultModelType="flat">
+        <property name="beginningDelimiter" value="`"/>
+        <property name="endingDelimiter" value="`"/>
+
+        <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
+            <property name="mappers" value="net.qzlife.call.utils.MyMapper"/>
+        </plugin>
+
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/callcenter"
+                        userId="root"
+                        password="123456">
+        </jdbcConnection>
+
+        <!-- 对于生成的pojo所在包 -->
+        <javaModelGenerator targetPackage="net.qzlife.call.pojo" targetProject="src/main/java"/>
+
+		<!-- 对于生成的mapper所在目录 -->
+        <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources"/>
+
+		<!-- 配置mapper对应的java映射 -->
+        <javaClientGenerator targetPackage="net.qzlife.call.mapper" targetProject="src/main/java"
+                             type="XMLMAPPER"/>
+
+
+		<table tableName="c_call_service"></table>
+		<table tableName="c_company"></table>
+		<table tableName="c_out_customer"></table>
+		<table tableName="c_out_relation"></table>
+		<table tableName="c_out_service"></table>
+		<table tableName="c_record"></table>
+		<table tableName="c_record"></table>
+		<table tableName="c_out_task"></table>
+		<table tableName="c_screen"></table>
+		<table tableName="c_sys_bind"></table>
+		<table tableName="c_sys_seats"></table>
+		<table tableName="c_visit_task"></table>
+		 
+    </context>
+</generatorConfiguration>
