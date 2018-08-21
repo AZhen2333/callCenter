@@ -29,18 +29,18 @@
                              type="XMLMAPPER"/>
 
 
-		<table tableName="c_call_service"></table>
-		<table tableName="c_company"></table>
-		<table tableName="c_out_customer"></table>
-		<table tableName="c_out_relation"></table>
-		<table tableName="c_out_service"></table>
-		<table tableName="c_record"></table>
-		<table tableName="c_record"></table>
-		<table tableName="c_out_task"></table>
-		<table tableName="c_screen"></table>
-		<table tableName="c_sys_bind"></table>
-		<table tableName="c_sys_seats"></table>
-		<table tableName="c_visit_task"></table>
+		<table tableName="i_call_service"></table>
+		<table tableName="i_company"></table>
+		<table tableName="i_out_customer"></table>
+		<table tableName="i_out_relation"></table>
+		<table tableName="i_out_service"></table>
+		<table tableName="i_record"></table>
+		<table tableName="i_record"></table>
+		<table tableName="i_out_task"></table>
+		<table tableName="i_screen"></table>
+		<table tableName="i_sys_bind"></table>
+		<table tableName="i_sys_seats"></table>
+		<table tableName="i_visit_task"></table>
 		 
     </context>
 </generatorConfiguration>

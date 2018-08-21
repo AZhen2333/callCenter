@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="net.qzlife.call.mapper.IRecordMapper">
+  <resultMap id="BaseResultMap" type="net.qzlife.call.pojo.IRecord">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="pk" jdbcType="VARCHAR" property="pk" />
+    <result column="starttime" jdbcType="VARCHAR" property="starttime" />
+    <result column="source" jdbcType="VARCHAR" property="source" />
+    <result column="destination" jdbcType="VARCHAR" property="destination" />
+    <result column="duration" jdbcType="INTEGER" property="duration" />
+    <result column="billableseconds" jdbcType="INTEGER" property="billableseconds" />
+    <result column="disposition" jdbcType="CHAR" property="disposition" />
+    <result column="uniqueid" jdbcType="CHAR" property="uniqueid" />
+    <result column="calltype" jdbcType="CHAR" property="calltype" />
+    <result column="userfield" jdbcType="VARCHAR" property="userfield" />
+    <result column="answertime" jdbcType="VARCHAR" property="answertime" />
+    <result column="endtime" jdbcType="VARCHAR" property="endtime" />
+    <result column="servie_id" jdbcType="VARCHAR" property="servieId" />
+    <result column="crm_id" jdbcType="VARCHAR" property="crmId" />
+    <result column="app_pid" jdbcType="VARCHAR" property="appPid" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="net.qzlife.call.pojo.IRecord">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="pk" jdbcType="VARCHAR" property="pk" />
+    <result column="starttime" jdbcType="VARCHAR" property="starttime" />
+    <result column="source" jdbcType="VARCHAR" property="source" />
+    <result column="destination" jdbcType="VARCHAR" property="destination" />
+    <result column="duration" jdbcType="INTEGER" property="duration" />
+    <result column="billableseconds" jdbcType="INTEGER" property="billableseconds" />
+    <result column="disposition" jdbcType="CHAR" property="disposition" />
+    <result column="uniqueid" jdbcType="CHAR" property="uniqueid" />
+    <result column="calltype" jdbcType="CHAR" property="calltype" />
+    <result column="userfield" jdbcType="VARCHAR" property="userfield" />
+    <result column="answertime" jdbcType="VARCHAR" property="answertime" />
+    <result column="endtime" jdbcType="VARCHAR" property="endtime" />
+    <result column="servie_id" jdbcType="VARCHAR" property="servieId" />
+    <result column="crm_id" jdbcType="VARCHAR" property="crmId" />
+    <result column="app_pid" jdbcType="VARCHAR" property="appPid" />
+  </resultMap>
+</mapper>

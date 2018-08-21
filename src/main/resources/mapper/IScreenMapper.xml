@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="net.qzlife.call.mapper.IScreenMapper" >
+  <resultMap id="BaseResultMap" type="net.qzlife.call.pojo.IScreen" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="c_pk" property="cPk" jdbcType="VARCHAR" />
+    <result column="c_name" property="cName" jdbcType="VARCHAR" />
+    <result column="c_phone" property="cPhone" jdbcType="VARCHAR" />
+    <result column="c_email" property="cEmail" jdbcType="VARCHAR" />
+    <result column="c_company" property="cCompany" jdbcType="VARCHAR" />
+    <result column="c_desc" property="cDesc" jdbcType="VARCHAR" />
+    <result column="c_tag" property="cTag" jdbcType="VARCHAR" />
+    <result column="c_callee" property="cCallee" jdbcType="VARCHAR" />
+    <result column="c_recordfile" property="cRecordfile" jdbcType="VARCHAR" />
+    <result column="c_uniqueid" property="cUniqueid" jdbcType="VARCHAR" />
+    <result column="c_datetime" property="cDatetime" jdbcType="INTEGER" />
+    <result column="c_caller" property="cCaller" jdbcType="VARCHAR" />
+    <result column="c_cid" property="cCid" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="net.qzlife.call.mapper.IOutTaskMapper" >
+  <resultMap id="BaseResultMap" type="net.qzlife.call.pojo.IOutTask" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="pk" property="pk" jdbcType="VARCHAR" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="starttime" property="starttime" jdbcType="TIMESTAMP" />
+    <result column="endTime" property="endtime" jdbcType="TIMESTAMP" />
+    <result column="desc" property="desc" jdbcType="VARCHAR" />
+    <result column="status" property="status" jdbcType="INTEGER" />
+    <result column="client_num" property="clientNum" jdbcType="INTEGER" />
+    <result column="app_id" property="appId" jdbcType="VARCHAR" />
+    <result column="scrm_id" property="scrmId" jdbcType="VARCHAR" />
+    <result column="c_auto_increment" property="cAutoIncrement" jdbcType="INTEGER" />
+  </resultMap>
+</mapper>

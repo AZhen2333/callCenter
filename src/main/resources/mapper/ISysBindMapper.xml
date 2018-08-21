@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="net.qzlife.call.mapper.ISysBindMapper" >
+  <resultMap id="BaseResultMap" type="net.qzlife.call.pojo.ISysBind" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="c_pk" property="cPk" jdbcType="VARCHAR" />
+    <result column="c_crm_id" property="cCrmId" jdbcType="VARCHAR" />
+    <result column="c_app_key" property="cAppKey" jdbcType="VARCHAR" />
+    <result column="c_app_secret" property="cAppSecret" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="net.qzlife.call.mapper.ISysSeatsMapper" >
+  <resultMap id="BaseResultMap" type="net.qzlife.call.pojo.ISysSeats" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="c_pk" property="cPk" jdbcType="VARCHAR" />
+    <result column="c_seat_extension" property="cSeatExtension" jdbcType="VARCHAR" />
+    <result column="c_crm_id" property="cCrmId" jdbcType="VARCHAR" />
+    <result column="c_seat_name" property="cSeatName" jdbcType="VARCHAR" />
+    <result column="c_is_del" property="cIsDel" jdbcType="BIT" />
+    <result column="c_dateline" property="cDateline" jdbcType="INTEGER" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="net.qzlife.call.mapper.IOutServiceMapper" >
+  <resultMap id="BaseResultMap" type="net.qzlife.call.pojo.IOutService" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="out_pk" property="outPk" jdbcType="VARCHAR" />
+    <result column="service_name" property="serviceName" jdbcType="VARCHAR" />
+    <result column="service_pk" property="servicePk" jdbcType="VARCHAR" />
+    <result column="service_count" property="serviceCount" jdbcType="INTEGER" />
+    <result column="service_total" property="serviceTotal" jdbcType="INTEGER" />
+    <result column="call_count" property="callCount" jdbcType="INTEGER" />
+    <result column="execu_count" property="execuCount" jdbcType="INTEGER" />
+    <result column="service_landline" property="serviceLandline" jdbcType="VARCHAR" />
+    <result column="app_id" property="appId" jdbcType="VARCHAR" />
+    <result column="scrm_id" property="scrmId" jdbcType="VARCHAR" />
+    <result column="auto_increment" property="autoIncrement" jdbcType="INTEGER" />
+  </resultMap>
+</mapper>
